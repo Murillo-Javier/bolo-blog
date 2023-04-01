@@ -62,7 +62,7 @@ body {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 5px auto;
     border-radius: 10px;
     flex-direction: column;
     align-content: flex-start;
@@ -138,4 +138,9 @@ footer {
             color: #e77ce6;
         }
     }
+}
+
+.ads {
+    display: flex;
+    justify-content: center;
 }
