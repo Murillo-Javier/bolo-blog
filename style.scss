@@ -6,7 +6,14 @@
 }
 
 body {
+    overflow-x: hidden;
     background-color: #eaeaea;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        overflow-x: hidden; 
+    }
 }
 
 .main-container {
@@ -104,8 +111,12 @@ body {
 }
 
 @media only screen and (max-width: 750px) {
+    .container {
+        width: 95vw;
+    }
+    
     .content {
-        width: 60vw;
+        width: 85vw;
         h3 {
             width: auto;
         }
