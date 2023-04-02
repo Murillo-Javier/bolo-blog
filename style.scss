@@ -24,8 +24,9 @@ body {
     margin: 20px auto;
     border-radius: 10px;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
     background-color: #f7f7f7;
+    flex-direction: column;
     h1 {
         display: flex;
         margin-right: 30px;
@@ -43,8 +44,13 @@ body {
     flex-direction: row;
 }
 
+.img-bolo {
+    width: 30vw;
+}
+
 @media only screen and (max-width: 750px) {
     .main-container {
+        width: 95vw;
         display: flex;
         align-content: center;
         flex-direction: column;
@@ -54,6 +60,19 @@ body {
             margin-right: 0;
         }
     }
+    .img-bolo {
+        width: 60vw;
+    }
+}
+
+.teste {
+    top: 8%;
+    width: 165px;
+    height: 305px;
+    margin: 10px;
+    position: fixed;
+    border-radius: 5px;
+    background: #f7f7f7;
 }
 
 .container {
